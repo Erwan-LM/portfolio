@@ -30,7 +30,7 @@ const button = document.querySelector('.about button');
 const paragraph = document.querySelector('#tap');
 
 
-if (button){
+if (button) {
   button.addEventListener('click', () => {
     button.textContent = `Bonjour et bienvenue sur mon portfolio ! 
   Anciennement cuisinier pendant 10 ans, je cherchais de nouvelles expériences et j'ai décidé de me reconvertir dans le développement web et mobile.
